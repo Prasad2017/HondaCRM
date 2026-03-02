@@ -1,0 +1,41 @@
+package com.hondacrm.Extra;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+
+
+public class DetectConnection {
+
+    public static boolean checkInternetConnection(Context context) {
+        // detect internet connection
+        ConnectivityManager con_manager = (ConnectivityManager)
+                context.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        return con_manager.getActiveNetworkInfo() != null
+                && con_manager.getActiveNetworkInfo().isAvailable()
+                && con_manager.getActiveNetworkInfo().isConnected();
+    }
+
+    public static void noInternetConnection(Context context) {
+
+       /* final Dialog dialog = new Dialog(context);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // before
+        dialog.setContentView(R.layout.dialog_warning);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+        dialog.setCancelable(false);
+
+        dialog.findViewById(R.id.retry).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (checkInternetConnection(context)) {
+                    dialog.dismiss();
+                } else {
+
+                }
+            }
+        });
+
+        dialog.show();*/
+
+    }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="status">
+        <item>Open</item>
+        <item>Close</item>
+    </array>
+
+    <array name="new_status">
+        <item>Open</item>
+    </array>
+
+    <array name="customer_type">
+        <item>Hot</item>
+        <item>Warm</item>
+        <item>Cold</item>
+    </array>
+
+    <array name="purchase_type">
+        <item>Cash</item>
+        <item>Finance</item>
+        <item>Best Deal</item>
+    </array>
+
+    <string-array name="stage_enquiry">
+        <item>Enquiry</item>
+    </string-array>
+
+    <string-array name="stage_quotation">
+        <item>Quotation</item>
+    </string-array>
+
+    <string-array name="finance_type">
+        <item>In-House</item>
+        <item>Out-House</item>
+    </string-array>
+
+
+</resources>

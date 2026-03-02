@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JHCRM</string>
+    <string name="singup"><u>SIGN UP</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contactNo">+91 7030323838</string>
+
+    <string name="nice_to_see_you"><b><font fgcolor='#ed801b'>JOHN HONDA</font></b> </string>
+    <string name="enter_your_an_otp_and_we_will_verify_an_otp_to_change_the_password">Enter your an OTP and we will verify an OTP to enter the application<b><font fgcolor='#B71C1C'> Change Mobile Number.</font></b></string>
+    <string name="submit">Submit</string>
+    <string name="appdeveloped">\u0040 Developed by<b><font fgcolor='#1c8aeb'> Landmark Techedge </font></b></string>
+
+</resources>
